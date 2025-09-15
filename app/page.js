@@ -5,6 +5,7 @@ import { Github, Linkedin, Mail, ExternalLink, Code, Server, Database, Smartphon
 import { motion, time } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { TypeAnimation } from 'react-type-animation';
+import Image from 'next/image';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -270,10 +271,14 @@ export default function Home() {
             <div className="flex justify-center mb-6">
               <div className="relative">
                 <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-cyan-400/30 shadow-2xl">
-                  <img 
+                  <Image 
+                    width={500}
+                    height={500}
                     src="https://placehold.co/200x200/1e293b/94a3b8?text=APtheDev" 
                     alt="Profile" 
-                    className="w-full h-full object-cover"
+                      unoptimized
+
+                    // className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center border-4 border-slate-900">
@@ -423,7 +428,9 @@ export default function Home() {
             >
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl transform rotate-3"></div>
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src="/images/atm-img.jpg"
                   // src=""
                   alt="Developer"
@@ -616,9 +623,12 @@ export default function Home() {
                 className="bg-slate-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 border border-slate-700 hover:border-cyan-500/30"
               >
                 <div className="relative">
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     src={project.image}
                     alt={project.title}
+                    unoptimized
                     className="w-full h-48 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
@@ -694,20 +704,20 @@ export default function Home() {
                     <div className="p-2 bg-cyan-500/10 rounded-lg mr-4">
                       <Mail className="text-cyan-400" size={20} />
                     </div>
-                    <span className="text-slate-300">john.doe@email.com</span>
+                    <span className="text-slate-300">aungphyoe.dev11@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <div className="p-2 bg-cyan-500/10 rounded-lg mr-4">
                       <Linkedin className="text-cyan-400" size={20} />
                     </div>
-                    <span className="text-slate-300">linkedin.com/in/johndoe</span>
+                    <span className="text-slate-300">https://www.linkedin.com/in/aung-thu-myint</span>
                   </div>
-                  <div className="flex items-center">
+                  {/* <div className="flex items-center">
                     <div className="p-2 bg-cyan-500/10 rounded-lg mr-4">
                       <Github className="text-cyan-400" size={20} />
                     </div>
                     <span className="text-slate-300">github.com/johndoe</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <form onSubmit={handleSubmit} className="space-y-6">
