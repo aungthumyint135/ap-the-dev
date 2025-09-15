@@ -431,7 +431,7 @@ export default function Home() {
                 <Image
                   width={500}
                   height={500}
-                  src="/images/atm-img.jpg"
+                  src="/images/ap.jpg"
                   // src=""
                   alt="Developer"
                   className="relative rounded-2xl shadow-2xl"
