@@ -289,31 +289,33 @@ export default function Home() {
 
             {/* Main Heading */}
             <div className="space-y-4">
-              <motion.h4
-                className="text-xl font-bold"
+              <motion.span
+                className="text-xs sm:text-xs md:text-md lg:text-xl font-bold"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                <span className="block text-lg pb-2
+               bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
                   <TypeAnimation
                     sequence={[
-                      // Same substring at the start will only be typed out once, initially
                       'Hello, I am Aung Thu Myint.',
-                      1000, // wait 1s before replacing "Mice" with "Hamsters"
-                      'Hello, I am Full Stack Web Developer.',
+                      1000,
+                      'Hello, I am Full-Stack Developer.',
                       1000,
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: '2em', display: 'inline-block' }}
+                    className="inline-block text-base sm:text-[1.3em] md:text-[1.5rem] lg:text-[2rem]"
                     repeat={Infinity}
                   />
                 </span>
-                {/* <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                {/* <h5 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2">
+                <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
                   Aung Thu Myint
-                </span> */}
-              </motion.h4>
+                </span>
+                </h5> */}
+              </motion.span>
 
               
               
@@ -324,7 +326,7 @@ export default function Home() {
                 className="inline-block"
               >
                 <div className="px-6 py-2 bg-slate-800/50 backdrop-blur-sm rounded-full border border-cyan-500/30">
-                  <span className="text-cyan-400 font-medium">Full Stack Web Developer</span>
+                  <span className="text-cyan-400 font-medium">Full-Stack Web Developer</span>
                 </div>
               </motion.div>
             </div>
