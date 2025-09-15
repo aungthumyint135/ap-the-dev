@@ -332,14 +332,10 @@ export default function Home() {
               className="text-lg 
                md:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed"
             >
-              {/* <p>
-                From stunning design to seamless functionality, I specialize in crafting captivating online experiences that engage and inspire. 
-              </p> */}
+              
                Let's transform your vision into reality and make your mark in the digital world.
-               <p>
-               
+               <br />
                I create <span className="text-cyan-400 font-semibold">with modern technologies and clean code practices.</span>
-              </p>
               {/* I create <span className="text-cyan-400 font-semibold">exceptional digital experiences</span> with modern technologies and clean code practices. */}
             </motion.p>
 
