@@ -338,7 +338,7 @@ export default function Home() {
                md:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed"
             >
               
-               Let's transform your vision into reality and make your mark in the digital world.
+               Let&#39;s transform your vision into reality and make your mark in the digital world.
                <br />
                I create <span className="text-cyan-400 font-semibold">with modern technologies and clean code practices.</span>
               {/* I create <span className="text-cyan-400 font-semibold">exceptional digital experiences</span> with modern technologies and clean code practices. */}
@@ -446,7 +446,7 @@ export default function Home() {
               className="space-y-6"
             >
               <p className="text-lg text-slate-300">
-                I'm a full-stack developer who loves turning complex problems into simple, beautiful solutions.
+                I&#39;m a full-stack developer who loves turning complex problems into simple, beautiful solutions.
                 With expertise spanning frontend to backend technologies, I create applications that not only
                 look great but also perform exceptionally.
               </p>
@@ -681,7 +681,7 @@ export default function Home() {
           >
             <h2 className="text-4xl font-bold mb-4 text-cyan-400">Get In Touch</h2>
             <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-              Ready to bring your ideas to life? Let's work together!
+              Ready to bring your ideas to life? Let&#39;s work together!
             </p>
           </motion.div>
 
@@ -694,9 +694,9 @@ export default function Home() {
           >
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-semibold mb-6 text-cyan-400">Let's Connect</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-cyan-400">Let&#39;s Connect</h3>
                 <p className="text-slate-300 mb-8">
-                  I'm always interested in new opportunities and exciting projects.
+                  I&#39;m always interested in new opportunities and exciting projects.
                   Whether you have a question or just want to say hi, feel free to reach out!
                 </p>
                 <div className="space-y-4">
