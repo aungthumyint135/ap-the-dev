@@ -58,7 +58,7 @@ export default function Home() {
 
   const milestones = [
     {
-      year: 'May 2024 - Sept 2024',
+      year: 'May 2024 - Sept 2025',
       title: 'Full Stack Developer',
       company: 'MCTPay Co., Ltd',
       description: 'Working on enterprise payment gateway solutions and financial applications for onboarding system, merchant and agent portal using Php Laravel and PostgreSQL',
