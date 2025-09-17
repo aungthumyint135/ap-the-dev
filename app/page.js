@@ -702,7 +702,7 @@ export default function Home() {
                   Whether you have a question or just want to say hi, feel free to reach out!
                 </p>
                 <div className="space-y-4">
-                  <div className="flex items-center">
+                  {/* <div className="flex items-center">
                     <div className="p-2 bg-cyan-500/10 rounded-lg mr-4">
                       <Mail className="text-cyan-400" size={20} />
                     </div>
@@ -713,7 +713,7 @@ export default function Home() {
                       <Linkedin className="text-cyan-400" size={20} />
                     </div>
                     <span className="text-slate-300">https://www.linkedin.com/in/aung-thu-myint</span>
-                  </div>
+                  </div> */}
                   {/* <div className="flex items-center">
                     <div className="p-2 bg-cyan-500/10 rounded-lg mr-4">
                       <Github className="text-cyan-400" size={20} />
