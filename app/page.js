@@ -457,18 +457,6 @@ export default function Home() {
                 the latest industry trends and best practices to deliver cutting-edge solutions that drive
                 business value and user satisfaction.
               </p>
-              <div className="grid grid-cols-2 gap-4 pt-4">
-                <div className="flex items-center space-x-2">
-                  <Mail className="text-cyan-400" size={20} />
-                  <span className="text-slate-300">aungphyoe.dev11@gmail.com</span>
-                </div>
-                
-                
-                <div className="flex items-center space-x-2">
-                  <MapPin className="text-cyan-400" size={20} />
-                  <span className="text-slate-300">Da Nang, Vietnam</span>
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
