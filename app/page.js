@@ -49,11 +49,11 @@ export default function Home() {
 
   const skills = [
     { name: 'Frontend', icon: Code, skills: ['React', 'Redux', 'Alpine JS', 'HTML/CSS', 'Tailwind CSS', 'Bootstrap', 'MUI', 'Ant Design', 'JavaScript', 'jQuery', 'AJAX'] },
-    { name: 'Backend', icon: Server, skills: ['Node.js', 'PHP' , 'Laravel', 'CodeIgniter', 'Express', 'Python'] },
-    { name: 'Database', icon: Database, skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Supabase'] },
+    { name: 'Backend', icon: Server, skills: ['PHP' ,'Laravel', 'Node.js', 'CodeIgniter', 'Express'] },
+    { name: 'Database', icon: Database, skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Supabase'] },
     { name: 'Tools', icon: Smartphone, skills: ['PhpStorm', 'VS Code', 'MySQL Workbench', 'Postman', 'Pg Admin'] },
-    { name: 'DevOps', icon: Zap, skills: ['AWS', 'Docker', 'NGINX', 'Git', 'GitHub', 'GitLab', 'CI/CD', 'Vercel', 'Netlify'] },
-    { name: 'Design', icon: Palette, skills: ['UI/UX', 'Figma', 'Adobe XD', 'Responsive Design'] }
+    { name: 'DevOps', icon: Zap, skills: ['AWS', 'Docker', 'NGINX', 'Git', 'GitHub', 'GitLab', 'Vercel', 'Netlify'] },
+    { name: 'Design', icon: Palette, skills: ['UI/UX', 'Figma', 'Responsive Design'] }
   ];
 
   const milestones = [
@@ -462,10 +462,10 @@ export default function Home() {
                   <Mail className="text-cyan-400" size={20} />
                   <span className="text-slate-300">aungphyoe.dev11@gmail.com</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Linkedin className="text-cyan-400" size={20} />
-                  <span className="text-slate-300">https://www.linkedin.com/in/aung-thu-myint</span>
-                </div>
+                // <div className="flex items-center space-x-2">
+                //   <Linkedin className="text-cyan-400" size={20} />
+                //   <span className="text-slate-300"> https://www.linkedin.com/in/aung-thu-myint </span>
+                // </div>
                 <div className="flex items-center space-x-2">
                   <Github className="text-cyan-400" size={20} />
                   <span className="text-slate-300">https://github.com/aungthumyint135</span>
