@@ -462,10 +462,7 @@ export default function Home() {
                   <Mail className="text-cyan-400" size={20} />
                   <span className="text-slate-300">aungphyoe.dev11@gmail.com</span>
                 </div>
-                {/* <div className="flex items-center space-x-2">
-                //   <Linkedin className="text-cyan-400" size={20} />
-                //   <span className="text-slate-300"> https://www.linkedin.com/in/aung-thu-myint </span>
-                 </div> */}
+                
                 <div className="flex items-center space-x-2">
                   <Github className="text-cyan-400" size={20} />
                   <span className="text-slate-300">https://github.com/aungthumyint135</span>
